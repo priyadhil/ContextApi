@@ -1,0 +1,50 @@
+.App {
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    transition: ease-in .1s;
+}
+nav {
+    padding: 15px;
+}
+nav ul {
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.bookList {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.bookList ul {
+    padding: 0;
+    list-style-type: none;
+}
+.bookList ul li {
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    display: flex;
+    flex-grow: 1;
+}
+.display {
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+button {
+    border: none;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
