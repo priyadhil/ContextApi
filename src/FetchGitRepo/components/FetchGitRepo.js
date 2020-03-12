@@ -26,7 +26,8 @@ export default function FetchGitRepo () {
     const currentRepo = repoList.slice(indexoffFirstData, indexoffLastData);
 
     useEffect(() => {
-        const url = `https://api.github.com/search/repositories?q=stars:>${query}+language:javascript&sort=stars&order=desc`;
+        const url = `https://api.github.com/search/repositories?
+                      q=stars:>${query}+language:javascript&sort=stars&order=desc`;
 
         if (!query) {
             return;
